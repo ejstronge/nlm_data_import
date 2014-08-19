@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='nlm_data_import',
-    version='0.1',
+    version='0.1.1',
     packages=['nlm_data_import'],
     scripts=['run_downloader.py'],
     license='MIT',
