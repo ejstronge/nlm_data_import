@@ -14,8 +14,8 @@ import shutil
 import tempfile
 import unittest
 
-from ..nlm_data_import import nlm_downloads_db as downloads_db
-from ..nlm_data_import import download_nlm_data as downloader
+from .. import nlm_downloads_db as downloads_db
+from .. import download_nlm_data as downloader
 
 
 class TestNLMDatabase(unittest.TestCase):
